@@ -25,7 +25,7 @@
 
 # Teams
 team_1 = "Georgia Tech"
-team_1_score = 2
+team_1_score = 8
 team_2 = "Georgia"
 team_2_score = 2
 
@@ -36,10 +36,10 @@ result = team_1_score - team_2_score
 result1 = abs(result)
 
 if team_1_score > team_2_score:
-    print(f"{team_1} beats {team_2} by {result1}")
+    print(f"{team_1} beat {team_2} by {result1}")
     
 elif team_2_score > team_1_score:
-    print(f"{team_2} beats {team_1} by {result1}")
+    print(f"{team_2} beat {team_1} by {result1}")
 
 else:
     print(f"{team_1} played {team_2} and it was a tie")
